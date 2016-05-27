@@ -13,7 +13,7 @@ class LaneStore {
   create(lane) {
     const lanes = this.lanes;
 
-    lane.id = uuiid.v4();
+    lane.id = uuid.v4();
 
     lane.notes = lane.notes || [];
 
